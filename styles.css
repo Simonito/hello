@@ -1,0 +1,80 @@
+#link{
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: right;
+}
+#link > div {
+    margin: 10px;
+}
+.icon{
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+.img_description {
+    /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    background: black;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+.icon:hover .img_description {
+    visibility: visible;
+    opacity: 1;
+}
+#form_wrap{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    
+    width:400px;
+}
+#form_wrap input:nth-child(1){
+    width:100%
+}
+#google_text {
+    /* background-color: aqua; */
+    padding-top: 10rem;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+#google_text > h1{
+    font-size: 5rem;
+}
+#google_text h1:nth-child(1) {
+    color: green;
+}
+#google_text h1:nth-child(2) {
+    color: rgb(215, 205, 11);
+}
+#google_text h1:nth-child(3) {
+    color: red;
+}
+#google_text h1:nth-child(4) {
+    color: green;
+}
+#google_text h1:nth-child(5) {
+    color: rgb(0, 115, 255);
+}
+#google_text h1:nth-child(6) {
+    color: rgb(215, 205, 11);
+}
+#google_text > h6 {
+    color:grey;
+}
+
+
+#search {
+    text-align: center;
+    display: block;
+    /* background-color: blueviolet; */
+}
