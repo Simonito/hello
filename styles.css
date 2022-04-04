@@ -39,7 +39,7 @@
 #form_wrap input:nth-child(1){
     width:100%
 }
-#google_text {
+.google_text {
     /* background-color: aqua; */
     padding-top: 10rem;
     display:flex;
@@ -47,28 +47,28 @@
     align-items: flex-end;
 
 }
-#google_text > h1{
+.google_text > h1{
     font-size: 5rem;
 }
-#google_text h1:nth-child(1) {
+.google_text h1:nth-child(1) {
     color: green;
 }
-#google_text h1:nth-child(2) {
+.google_text h1:nth-child(2) {
     color: rgb(215, 205, 11);
 }
-#google_text h1:nth-child(3) {
+.google_text h1:nth-child(3) {
     color: red;
 }
 #google_text h1:nth-child(4) {
     color: green;
 }
-#google_text h1:nth-child(5) {
+.google_text h1:nth-child(5) {
     color: rgb(0, 115, 255);
 }
-#google_text h1:nth-child(6) {
+.google_text h1:nth-child(6) {
     color: rgb(215, 205, 11);
 }
-#google_text > h6 {
+.google_text > h6 {
     color:grey;
 }
 
