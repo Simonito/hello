@@ -59,7 +59,7 @@
 .google_text h1:nth-child(3) {
     color: red;
 }
-#google_text h1:nth-child(4) {
+.google_text h1:nth-child(4) {
     color: green;
 }
 .google_text h1:nth-child(5) {
