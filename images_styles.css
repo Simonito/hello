@@ -12,8 +12,6 @@
     display: flex;
     justify-content: left;
 }
-#home > .google_text > h1{
-}
 .google_text > h3{
     color:rgb(20, 90, 255)
 }
