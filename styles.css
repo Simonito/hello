@@ -32,6 +32,9 @@ a:hover {
 
     font-size: 14px;
 }
+.submitBut:hover{
+    cursor: pointer;
+}
 
 #link{
     /* background-color: greenyellow; */

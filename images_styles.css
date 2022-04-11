@@ -1,0 +1,19 @@
+.upper_div{
+    height:fit-content;
+    display: flex;
+    
+}
+.link_home{
+    margin: 10px 0px 0px 10px;
+    padding: 0px;
+}
+#home > .google_text{
+    padding-top: 0;
+    display: flex;
+    justify-content: left;
+}
+#home > .google_text > h1{
+}
+.google_text > h3{
+    color:rgb(20, 90, 255)
+}
