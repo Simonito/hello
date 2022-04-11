@@ -4,23 +4,30 @@
     <title>Images</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .google_text{
+        #home > .google_text{
             padding-top: 0;
             display: flex;
             justify-content: left;
         }
-        .google_text > h1{
+        #home > .google_text > h1{
             font-size: 2.25rem;
         }
     </style>
 </head>
 <body>
-    <a href="index.html" style="text-decoration: none;">
-        <div class="google_text">
-            <h1>G</h1><h1>o</h1><h1>o</h1><h1>g</h1><h1>l</h1><h1>e</h1>
-            <h6>clone</h6>
+    <div class="upper_div">
+        <div class="link_home">
+            <a id="home" href="index.html" style="text-decoration: none;">
+                <div class="google_text">
+                    <h1>G</h1>
+                </div>
+            </a>
         </div>
-    </a>
+        <div>
+
+        </div>
+    </div>
+    
 
     <div id="search">
         <div class="google_text">
@@ -30,9 +37,22 @@
 
         </div>
         <div id="form_wrap">
-           <form action="https://www.google.com/imghp">
-            <input type="text" name="q" style="border-radius: 20px;">
-            <input type="submit" value="Google Search">
+           <form action="https://www.google.com/search">
+            <input id="textfield" type="text" name="q" style="border-radius: 20px;">
+            <input class="submitBut" type="submit" value="Google Search">
+            <!-- <input type="text" name="sclient=img" style="visibility: hidden; width: 100%;"> -->
+            <div>
+                <!-- I have just copied this from google, I have no idea what those values mean -->
+                <input name="hl" value="en-GB" type="hidden">
+                <input name="authuser" value="0" type="hidden">
+                <input name="tbm" value="isch" type="hidden">
+                <input name="sxsrf" value="APq-WBtd4_UuZ9ILiZ99zxx3oLm7jTG1IQ:1649094951255" type="hidden">
+                <input name="source" type="hidden" value="hp">
+                <input name="biw" type="hidden" value="465">
+                <input name="bih" type="hidden" value="662">
+                <input value="JzFLYufDDYrga9vzpKgJ" name="ei" type="hidden">
+                <input value="AHkkrS4AAAAAYks_NzIxb8L4H4bwvsG-ipvx1hp76VAI" name="iflsig" type="hidden">
+            </div>
         </form>  
         </div>
         
