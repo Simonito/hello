@@ -1,0 +1,40 @@
+.upper_div{
+    height:fit-content;
+    display: flex;
+    justify-content: left;
+}
+.page_title > h2{
+    margin-left: 50px;
+    color:rgb(160, 96, 43);
+}
+
+.component-div{
+    display: flex;
+    color:darkgrey;
+}
+.component-div > div{
+    margin-left: 20px;
+}
+.one{
+    width: 170px;
+}
+.two{
+    margin-top: 20px;
+    width: 40%;
+}
+.two > input{
+    width: 100%;
+    background-color: #2e2e2e;
+    color:darkgrey;
+}
+.wrapbut{
+    margin-top: 20px;
+    width: 41%;
+    display: flex;
+    justify-content: right;
+}
+.wrapbut > input{
+    background-color: rgb(85, 142, 226);
+    color: #212124; 
+    justify-self: right;
+}

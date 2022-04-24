@@ -1,7 +1,7 @@
 .upper_div{
     height:fit-content;
     display: flex;
-    
+    justify-content: right;
 }
 .link_home{
     margin: 10px 0px 0px 10px;
